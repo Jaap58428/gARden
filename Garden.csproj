@@ -249,6 +249,7 @@
     <Compile Include="Assets\Scripts\SolarSystem\RotateAsteroids.cs" />
     <Compile Include="Assets\Scripts\SolarSystem\SunScript.cs" />
     <Compile Include="Assets\Scripts\SpaceCollectionManager.cs" />
+    <Compile Include="Assets\Scripts\SpeechManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\HoloToolkit-SpatialMapping-230\Input\Models\Cursor\UI-Default.shader" />
