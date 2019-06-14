@@ -16067,19 +16067,19 @@
     "UAP,Version=v10.0.10240": []
   },
   "packageFolders": {
-    "C:\\Users\\jaapk\\.nuget\\packages\\": {}
+    "C:\\Users\\Jaap\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "D:\\hololens\\Garden\\Garden\\App\\Garden\\Garden.csproj",
+      "projectUniqueName": "D:\\hololens\\gARden\\gARden\\App\\Garden\\Garden.csproj",
       "projectName": "Garden",
-      "projectPath": "D:\\hololens\\Garden\\Garden\\App\\Garden\\Garden.csproj",
-      "projectJsonPath": "D:\\hololens\\Garden\\Garden\\App\\Garden\\project.json",
-      "packagesPath": "C:\\Users\\jaapk\\.nuget\\packages\\",
-      "outputPath": "D:\\hololens\\Garden\\Garden\\App\\Garden\\obj\\",
+      "projectPath": "D:\\hololens\\gARden\\gARden\\App\\Garden\\Garden.csproj",
+      "projectJsonPath": "D:\\hololens\\gARden\\gARden\\App\\Garden\\project.json",
+      "packagesPath": "C:\\Users\\Jaap\\.nuget\\packages\\",
+      "outputPath": "D:\\hololens\\gARden\\gARden\\App\\Garden\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
-        "C:\\Users\\jaapk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jaap\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "sources": {

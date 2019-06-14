@@ -19,6 +19,9 @@ public class Interactible : MonoBehaviour
 {
     public InteractibleParameters InteractibleParameters;
 
+    Vector3 originalPosition;
+
+
     [Tooltip("Audio clip to play when interacting with this hologram.")]
     public AudioClip TargetFeedbackSound;
     private AudioSource audioSource;
@@ -33,6 +36,9 @@ public class Interactible : MonoBehaviour
         }
 
         EnableAudioHapticFeedback();
+
+        originalPosition = this.transform.localPosition;
+
     }
 
     private void EnableAudioHapticFeedback()
@@ -57,4 +63,20 @@ public class Interactible : MonoBehaviour
     {
         Debug.ClearDeveloperConsole();
     }
+
+    // Called by SpeechManager when the user says the "Reset world" command
+    void OnReset()
+    {
+        // If the sphere has a Rigidbody component, remove it to disable physics.
+        var rigidbody = this.GetComponent<Rigidbody>();
+        if (rigidbody != null)
+        {
+            rigidbody.isKinematic = true;
+            Destroy(rigidbody);
+        }
+
+        // Put the sphere back into its original local position.
+        this.transform.localPosition = originalPosition;
+    }
+
 }

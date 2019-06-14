@@ -1,9 +1,9 @@
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
         <UnityWSASolutionName>Garden</UnityWSASolutionName>
-        <UnityWSASolutionDir>D:\hololens\Garden\Garden\App\</UnityWSASolutionDir>
-        <UnityProjectDir>D:\hololens\Garden\Garden\</UnityProjectDir>
-        <UnityWSAPlayerDir>C:\Program Files\Unity\Hub\Editor\2017.4.29f1\Editor\Data\PlaybackEngines\MetroSupport\</UnityWSAPlayerDir>
+        <UnityWSASolutionDir>D:\hololens\gARden\gARden\App\</UnityWSASolutionDir>
+        <UnityProjectDir>D:\hololens\gARden\gARden\</UnityProjectDir>
+        <UnityWSAPlayerDir>D:\Unity2\Editor\Data\PlaybackEngines\MetroSupport\</UnityWSAPlayerDir>
         <UnityWSAToolsDir>$(UnityWSASolutionDir)Unity\Tools\</UnityWSAToolsDir>
     </PropertyGroup>
 </Project>
