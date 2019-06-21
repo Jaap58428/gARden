@@ -60,8 +60,8 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _Glossiness: 0.5
-    - _LineScale: 0.04
-    - _LinesPerMeter: 10
+    - _LineScale: 4
+    - _LinesPerMeter: 24
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
